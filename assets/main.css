@@ -121,7 +121,6 @@ header nav a:hover {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    flex: 1 1 calc(30% - 40px);
     max-width: 300px;
 }
 
@@ -194,7 +193,7 @@ header nav a:hover {
     margin: 0;
 }
 
-.test1 {
+.description {
     padding: 20px;
     background-color: #ECF0F1;
     display: flex;
@@ -204,7 +203,7 @@ header nav a:hover {
     justify-content: center;
 }
 
-.test1__item {
+.description__item {
     background: white;
     width: 720px;
     padding: 20px;
@@ -213,7 +212,7 @@ header nav a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.test1__item:hover{
+.description__item:hover{
     background-color: rgb(14, 14, 98);
     color: white;
 }
